@@ -17,6 +17,8 @@ main() async {
   DartPluginRegistrant.ensureInitialized();
   runApp(
     const MaterialApp(
+      debugShowCheckedModeBanner: false,
+
       home: MyApp(),
     ),
   );
